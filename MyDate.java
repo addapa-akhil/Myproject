@@ -48,20 +48,8 @@ year=c;
 
 public static void main(String args[])
 {
-Scanner sc=new Scanner(System.in);
-MyDate d=new MyDate();
-System.out.println("Enter day: " );
-int a=sc.nextInt();
-d.setDay(a);
-System.out.println("Enter Month: ");
-int b=sc.nextInt();
-d.setMonth(b);
-System.out.println("Enter Year: " );
-int c=sc.nextInt();
-d.setYear(c);
-
-MyDate d1=new MyDate(19,10,2020);
-d.display();
+ Scanner sc=new Scanner(System.in);
+MyDate d1=new MyDate(31,10,2020);
 d1.display();
 }
 }
